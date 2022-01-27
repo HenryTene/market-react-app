@@ -3,6 +3,7 @@ import './App.css';
 import './Login/Login.css'
 /* import Signup from './Signup/Signup'; */
 import Login from './Login/Login';
+import Navbar from './Navbar/Navbar';
 
 function App() {
   return (
@@ -22,8 +23,9 @@ function App() {
         </a>
       </header>
     </div> */
+    <Navbar/>
 
-    <Login/>
+    /* <Login/> */
   );
 }
 
